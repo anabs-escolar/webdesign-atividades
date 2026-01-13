@@ -1,0 +1,70 @@
+/* Index CSS */
+@import url(main.css);
+
+.featured{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+.featured h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  font-weight: 900;
+  font-size: 2.5em;
+  line-height: 2.5em;
+  text-transform: uppercase;
+  text-align: start;
+  width: 50%;
+
+  & span{
+    line-height: 0.9em;
+  }
+  & .bazar{
+    flex-basis: auto;
+    font-size: calc(2.5em * 1);
+    letter-spacing: 0.1em;
+    /* color: var(--primary); */
+    color: transparent;
+    -webkit-text-stroke: var(--border-width) var(--text);
+  }
+  & .de{
+    font-size: calc(2.5em * 0.35);
+    margin-left: 0.1em;
+  }
+  & .roupas{
+    flex-basis: 100%;
+    font-size: calc(2.5em * 1.1);
+    color: var(--accent);
+  }
+}
+
+.products{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.products h2{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.products ol{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  list-style: none;
+  & img:hover{
+    transform: scale(1.001);
+  }
+}
+

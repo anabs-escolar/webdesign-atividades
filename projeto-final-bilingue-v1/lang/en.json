@@ -1,0 +1,55 @@
+{
+  "title_page": "Boo!Bazar - Home",
+  "title_cart": "Boo!Bazar - Cart",
+  "title_product": "Boo!Bazar - Cute Outfit",
+  "title_contact": "Boo!Bazar - Contact",
+  "title_about": "Boo!Bazar - About",
+
+  "menu_cart": "Cart",
+  "menu_contact": "Contact",
+  "menu_about": "About",
+
+  "address": "0 Dummy Street, ZIP 00000 — The Funny House",
+
+  "word_bazar": "bazaar",
+  "word_de": "of",
+  "word_roupas": "clothes",
+  "word_para_fantasmas": "for ghosts!",
+  "headline_prefix": "The first",
+
+  "featured": "Featured Clothes",
+  "see_more": "See More",
+
+  "product_name": "Cute Outfit",
+  "add_cart": "Add to Cart",
+  "desc_title": "Description",
+  "desc_text": "This outfit was made especially for those who live between the world of the living and the world of spirits. Light, comfortable and full of style, it combines soft fabrics with a fit that seems to float on the body. Perfect for walking through old hallways, passing through walls with elegance or simply relaxing in a haunted castle with lots of charm.",
+
+  "my_cart": "My Cart",
+  "th_product": "Product",
+  "th_qty": "Quantity",
+  "th_price": "Price (R$)",
+  "th_remove": "Remove",
+  "product_1": "Cute Outfit",
+  "product_2": "Elegant Outfit",
+  "total_label": "Total",
+  "summary": "Summary",
+  "subtotal": "Subtotal",
+  "shipping": "Shipping",
+  "finish": "Checkout",
+
+  "contact_title": "Contact",
+  "contact_text": "Want to talk to us? Leave your message — we love echoes from the other side!",
+  "send_msg": "Send a message!",
+  "label_name": "Full Name",
+  "ph_name": "Type your name...",
+  "label_email": "Email",
+  "ph_email": "example@email.com",
+  "label_msg": "Message",
+  "ph_msg": "Type your message here...",
+  "send_btn": "Send",
+
+  "about_title": "About Boo!Bazar",
+  "about_caption": "Francisco Cisco, Entrepreneur and Founder of Boo!Bazar",
+  "about_text": "Boo!Bazar was born from the idea that even ghosts deserve to dress well. Created by Francisco Cisco, the brand emerged to serve creatures from beyond who were looking for comfort, style and personality in their clothes. Here, every piece is designed to float lightly, pass through walls without tearing and keep its charm even on the darkest nights."
+}

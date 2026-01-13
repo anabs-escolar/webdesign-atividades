@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="title_contact"></title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+        <a href="index.html">Boo!Bazar</a>
+      </h1>
+
+      <ol class="nav-links">
+        <li><a href="cart.html" data-i18n="menu_cart"></a></li>
+        <li><a href="contact.html" data-i18n="menu_contact"></a></li>
+        <li><a href="about.html" data-i18n="menu_about"></a></li>
+        <li id="id-lang-options"></li>
+      </ol>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2 data-i18n="contact_title"></h2>
+      <div>
+        <figure>
+          <img src="img/ghost-phone.png" alt="Ghost on Phone">
+        </figure>
+        <p data-i18n="contact_text"></p>
+      </div>
+      <form>
+        <h3 data-i18n="send_msg"></h3>
+
+        <label for="name" data-i18n="label_name"></label>
+        <input type="text" id="name" name="name" data-i18n-ph="ph_name">
+
+        <label for="email" data-i18n="label_email"></label>
+        <input type="email" id="email" name="email" data-i18n-ph="ph_email">
+
+        <label for="message" data-i18n="label_msg"></label>
+        <textarea id="message" name="message" data-i18n-ph="ph_msg"></textarea>
+
+        <button class="btn-primary" type="submit" data-i18n="send_btn"></button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address data-i18n="address"></address>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>

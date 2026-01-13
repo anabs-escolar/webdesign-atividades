@@ -1,0 +1,55 @@
+{
+  "title_page": "Boo!Bazar - Página Inicial",
+  "title_cart": "Boo!Bazar - Carrinho",
+  "title_product": "Boo!Bazar - Roupinha Linda",
+  "title_contact": "Boo!Bazar - Contato",
+  "title_about": "Boo!Bazar - Sobre",
+
+  "menu_cart": "Carrinho",
+  "menu_contact": "Contato",
+  "menu_about": "Sobre",
+
+  "address": "Rua dos Bobos, Nº 0, CEP 00000 — A Casa Engraçada",
+
+  "word_bazar": "bazar",
+  "word_de": "de",
+  "word_roupas": "roupas",
+  "word_para_fantasmas": "para fantasmas!",
+  "headline_prefix": "O primeiro",
+
+  "featured": "Roupas em Destaque",
+  "see_more": "Ver Mais",
+
+  "product_name": "Roupinha Linda",
+  "add_cart": "Adicionar ao Carrinho",
+  "desc_title": "Descrição",
+  "desc_text": "Essa roupinha foi feita especialmente para quem vive entre o mundo dos vivos e o mundo dos espíritos. Leve, confortável e cheia de estilo, ela combina tecidos suaves com um caimento que flutua no corpo. Perfeita para passear por corredores antigos, atravessar paredes com elegância ou apenas descansar em um castelo mal-assombrado com muito charme.",
+
+  "my_cart": "Meu Carrinho",
+  "th_product": "Produto",
+  "th_qty": "Quantidade",
+  "th_price": "Preço (R$)",
+  "th_remove": "Remover",
+  "product_1": "Roupinha Linda",
+  "product_2": "Roupinha Elegante",
+  "total_label": "Total",
+  "summary": "Resumo",
+  "subtotal": "Subtotal",
+  "shipping": "Frete",
+  "finish": "Finalizar Compra",
+
+  "contact_title": "Contato",
+  "contact_text": "Quer falar com a gente? Deixe sua mensagem — adoramos receber ecos do outro lado!",
+  "send_msg": "Envie uma mensagem!",
+  "label_name": "Nome Completo",
+  "ph_name": "Digite seu nome...",
+  "label_email": "E-mail",
+  "ph_email": "exemplo@email.com",
+  "label_msg": "Mensagem",
+  "ph_msg": "Digite sua mensagem aqui...",
+  "send_btn": "Enviar",
+
+  "about_title": "Sobre a Boo!Bazar",
+  "about_caption": "Francisco Cisco, Empreendedor e Fundador da Boo!Bazar",
+  "about_text": "A Boo!Bazar nasceu da ideia de que até fantasmas merecem se vestir bem. Criada por Francisco Cisco, a marca surgiu para atender criaturas do além que buscavam conforto, estilo e personalidade em suas roupas. Aqui, cada peça é pensada para flutuar com leveza, atravessar paredes sem rasgar e manter o charme mesmo nas noites mais sombrias."
+}
