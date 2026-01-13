@@ -1,0 +1,29 @@
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.about figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+
+.about figure img{
+  width: 40em;
+}
+
+.about h2{
+  text-align: center;
+}
+
+.about p{
+  width: 70%;
+  font-size: 1.2em;
+  text-align: center;
+}

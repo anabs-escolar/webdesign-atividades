@@ -1,0 +1,96 @@
+/* cart CSS */
+@import url(main.css);
+
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 2em;
+}
+.cart h2{
+  flex-basis: 100%;
+}
+
+.cart table{
+  width: 100%;
+  flex-basis: 63%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+th, td {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px;
+  border-bottom: 3px solid #333;
+  text-align: center;
+}
+tr th:first-child {
+  text-align: start;
+}
+tbody tr td:first-child{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+tr th:not(:first-child){
+  width: 17%;
+}
+td img{
+  width: 35%;
+}
+td{
+  font-size: 1.3em;
+  font-weight: 700;
+}
+td button{
+  text-align: center;
+  padding: 0.4em 0.5em;
+  border-radius: 100%;
+}
+tfoot tr td{
+  text-align: start;
+  border-bottom: none;
+  font-size: 1.5em;
+}
+tfoot tr td:last-child{
+  text-align: center;
+}
+
+.summary{
+  flex-basis: 30%;
+  padding: 1em;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+.summary h3{
+  font-size: 2.5em;
+  border-bottom: var(--border);
+  margin-bottom: 0.3em;
+}
+.summary p{
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+.summary p .price{
+  text-align: end;
+  font-weight: 700;
+}
+.summary p.total{
+  border-bottom: var(--border);
+  margin: 1em 0;
+  align-items: center;
+  & .price{
+    font-size: 1.7em;
+  }
+}
+.summary button{
+  width: 100%;
+  text-transform: uppercase;
+}
