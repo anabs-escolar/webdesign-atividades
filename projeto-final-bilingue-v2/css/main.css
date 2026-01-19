@@ -140,6 +140,7 @@ footer {
 
 .flag-icon{
   width: 16pt;
+  margin-right: 4pt;
 }
 .lang-btn{
   display: flexbox;
