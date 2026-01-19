@@ -3,6 +3,7 @@
 
 .product {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: center;
   gap: 4em;
@@ -11,6 +12,7 @@
 
 .product .price {
   display: flex;
+  flex-basis: 55%;
   flex-direction: column;
   align-items: center;
   padding: 1em;
@@ -19,11 +21,11 @@
 }
 
 .product .price h2 {
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 .product .price p {
-  font-size: 7.5em;
+  font-size: 5.5em;
   font-weight: 700;
 }
 
@@ -32,6 +34,7 @@
 }
 
 .product figure {
+  flex-basis: 35%;
   height: 100%;
   & img{
     width: 100%;
